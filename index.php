@@ -5,9 +5,10 @@ $conn = null;
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="icon" href="dist/img/logo-jaya.png">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Jaya Hospital</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -115,7 +116,7 @@ $conn = null;
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="index.php?page=data_asset" id="data_asset">
                   <i class="fas fa-hospital-alt nav-icon"></i>
                   <p>Asset</p>
                 </a>
