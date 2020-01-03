@@ -30,7 +30,7 @@
                             <h3>Add Asset</h3>
                         </div>
                     </div>
-                    <form role="form" method="post" action="pages/asset/add_asset_process.php">
+                    <form role="form" method="post" action="pages/asset/tambah_asset.php">
                         <div class="card-body">
                 
                             <div class="form-group">
