@@ -26,13 +26,32 @@
           <!-- general form elements -->
           <div class="card">
             <div class="card-header">
-            <h3><i>Add Asset</i></h3>
+            <h3>Add Asset</h3>
             </div>
-            <form role="form" method="post" action="pages/mahasiswa/tambah_mahasiswa_proses.php">
-              <div class="box-body">
+            <form role="form" method="post" action="pages/asset/tambah_mahasiswa_proses.php">
+              <div class="card-body">
+                
                 <div class="form-group">
-                  <label>Nim</label>
-                  <input type="text" name="nim" class="form-control" placeholder="Nim" required>
+                  <label>ASSET CATEGORY</label>
+                  <select class="form-control" name="category">
+                    <option value="">- Pilih Category -</option>
+                    <option value="Car">Car</option>
+                    <option value="Medkit">Medkit</option>
+                    <option value="Motorcycle">Motorcycle</option>
+                    <option value="Toolkit">Toolkit</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>ASSET NAME</label>
+                  <input type="text" name="name" class="form-control" placeholder="Asset Name" required>
+                </div>
+                <div class="form-group">
+                  <label>LOCATION</label>
+                  <input type="text" name="location" class="form-control" placeholder="Asset Location" required>
+                </div>
+                <div class="form-group">
+                  <label>CONDITION</label>
+                  <input type="text" name="condition" class="form-control" placeholder="Asset Condition Value (10-100)" required>
                 </div>
         </div>
     </section>
