@@ -38,12 +38,12 @@
                     <table id="asset" name="asset" class="table table-bordered table-hover dataTable">
                         <thead>
                           <tr role="row">
-                            <th style="width:auto;">Asset ID</th>
+                            <th>Asset ID</th>
                             <th>Asset Category</th>
                             <th>Asset Name</th>
                             <th>Location</th>
                             <th>Condition</th>
-                              <th style="width:180px;"></th>
+                            <th style="width:180px;" class="" tabindex="0" aria-controls="" rowspan="" colspan="" aria-label="" aria-sort=""></th></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -67,7 +67,7 @@
                             <td>".$row['asset_cat']."</td>
                             <td>".$row['asset_name']."</td>
                             <td>".$row['lokasi']."</td>
-                            <td>".$row['condition']."</td>
+                            <td>".$row['cond']."</td>
                             <td align='center'>
                               <a id='btnEdit' class='btn btn-md btn-success' role='button' title='Edit Data'><i class='fas fa-edit'></i> Edit</a>
                               <a id='btnDelete' class='btn btn-md btn-danger' role='button' title='Delete Data'><i class='fas fa-trash-alt'></i> Delete</a>

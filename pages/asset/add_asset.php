@@ -53,10 +53,10 @@
                             </div>
                             <div class="form-group">
                                 <label>CONDITION</label>
-                                <input type="text" name="condition" class="form-control" placeholder="Asset Condition Value (10-100)" required>
+                                <input type="text" name="cond" class="form-control" placeholder="Asset Condition Value (10-100)" required>
                             </div>
                             <div class="float-sm-right">
-                                <button type="submit" class="btn btn-primary" title="Save Data"> <i class="fas fa-save"></i> Save</button>
+                                <button type="submit" class="btn btn-primary" title="Save Data" name="submit"> <i class="fas fa-save"></i> Save</button>
                             </div>
                         </div>
                         
