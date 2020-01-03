@@ -13,7 +13,7 @@ if(isset($_POST["submit"])){
         VALUES ('".$_POST["category"]."','".$_POST["name"]."','".$_POST["location"]."','".$_POST["cond"]."')";
         if ($dbh->query($sql)) {
             echo "<script type= 'text/javascript'>alert('New Record Inserted Successfully');
-            window.location.href='index.php?page=data_asset'</script>";
+            window.location.href='../../index.php?page=data_asset'</script>";
         }
         else{
             echo "<script type= 'text/javascript'>alert('Data not successfully Inserted.');
