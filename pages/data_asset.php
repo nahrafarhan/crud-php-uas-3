@@ -25,7 +25,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <a href="index.php?page=add_asset" class="btn btn-primary" role="button" title="Tambah Data"><i class="fas fa-plus"></i>Tambah Data</a>
+              <a href="index.php?page=add_asset" class="btn btn-primary" role="button" title="Tambah Data"><i class="fas fa-plus"></i> Tambah Data</a>
             </div>
             <div class="card-body">
               <div class="dataTables_wrapper dt-bootstrap4" id="asset_wrapper">
@@ -69,8 +69,8 @@
                             <td>".$row['lokasi']."</td>
                             <td>".$row['condition']."</td>
                             <td align='center'>
-                              <a id='btnEdit' class='btn btn-md btn-success' role='button' title='Edit Data'><i class='fas fa-edit'>Edit</i></a>
-                              <a id='btnDelete' class='btn btn-md btn-danger' role='button' title='Delete Data'><i class='fas fa-trash-alt'>Delete</i></a>
+                              <a id='btnEdit' class='btn btn-md btn-success' role='button' title='Edit Data'><i class='fas fa-edit'></i> Edit</a>
+                              <a id='btnDelete' class='btn btn-md btn-danger' role='button' title='Delete Data'><i class='fas fa-trash-alt'></i> Delete</a>
                             </td>
                           </tr>";
 
