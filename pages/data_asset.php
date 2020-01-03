@@ -25,7 +25,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <a href="index.php?page=tambah_asset" class="btn btn-primary" role="button" title="Tambah Data"><i class="fas fa-plus"></i>Tambah Data</a>
+              <a href="index.php?page=add_asset" class="btn btn-primary" role="button" title="Tambah Data"><i class="fas fa-plus"></i>Tambah Data</a>
             </div>
             <div class="card-body">
               <div class="dataTables_wrapper dt-bootstrap4" id="asset_wrapper">
