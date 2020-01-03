@@ -9,6 +9,9 @@ switch ($page) {
     case 'add_asset':
       include 'pages/asset/add_asset.php';
       break;
+    case 'edit_asset':
+      include 'pages/asset/edit_asset.php';
+    break;
   }
 }else{
     include "pages/home.php";

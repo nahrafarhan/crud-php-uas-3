@@ -48,7 +48,7 @@
                         </thead>
                         <tbody>
                           <?php
-                          include "conf/conn.php";
+                          include 'conf/conn.php';
                           $sql = "SELECT * FROM assets";
                           $result = $conn->query($sql);
 
@@ -69,8 +69,8 @@
                             <td>".$row['lokasi']."</td>
                             <td>".$row['cond']."</td>
                             <td align='center'>
-                              <a id='btnEdit' class='btn btn-md btn-success' role='button' title='Edit Data'><i class='fas fa-edit'></i> Edit</a>
-                              <a id='btnDelete' class='btn btn-md btn-danger' role='button' title='Delete Data'><i class='fas fa-trash-alt'></i> Delete</a>
+                              <a href='index.php?page=edit_asset&id=".$row['asset_id']."' id='btnEdit' class='btn btn-md btn-success' role='button' title='Edit Data'><i class='fas fa-edit'></i> Edit</a>
+                              <a href='pages/asset/delete_asset.php?id=".$row['asset_id']."' id='btnDelete' class='btn btn-md btn-danger' role='button' title='Delete Data'><i class='fas fa-trash-alt'></i> Delete</a>
                             </td>
                           </tr>";
 
@@ -111,5 +111,6 @@ $(document).ready(function() {
 			// "ordering": true,
 			// "info":     true,
 		 
-	});
+  });
+// document.getElementById("btnEdit").href = "index.php?page=edit_asset";
 </script>

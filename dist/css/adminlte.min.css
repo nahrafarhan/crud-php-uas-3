@@ -10190,7 +10190,7 @@ body,
 }
 
 .layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*="navbar"]) {
-  background-color: #05096e;
+  background-color: #073488;
 }
 
 .layout-navbar-fixed .wrapper .sidebar-light-primary .brand-link:not([class*="navbar"]) {
@@ -26653,7 +26653,7 @@ blockquote.quote-gray-dark h6 {
 }
 
 .elevation-4 {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+  box-shadow: 0 14px 28px rgba(6, 34, 161, 0.685), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
 }
 
 .elevation-5 {
